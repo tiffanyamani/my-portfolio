@@ -1,0 +1,253 @@
+/*** BASE STYLES  ***/
+
+body {
+    margin: 0 auto;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #303846;
+}
+
+section, 
+.clearfix {
+    overflow: auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    width: 65%;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 28px;
+}
+
+/*** HEADER ***/
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 600px;
+    float: right;
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #303846;
+    font-weight: 700;
+}
+
+.navbar ul li a:hover {
+    color: #e4afb9;
+}
+
+.navbar ul li i {
+    font-size: 20px;
+}
+
+.hero {
+    clear: both;
+    height: 400px;
+}
+
+.hero .icon {
+    padding-top: 100px;
+    font-size: 56px;
+    line-height: 56px;
+    color: #303846;
+    vertical-align: text-bottom;
+}
+
+.hero .hello {
+    display: inline;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    margin-left: 5px;
+}
+
+.hero .name {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 2px;
+    word-spacing: 1px;
+}
+
+.hero .name span {
+    color: #e4afb9;
+    letter-spacing: 3px;
+}
+
+/*** ABOUT ***/
+
+#about {
+    background-color: #2f4661;
+    
+}
+
+#about {
+    color: #ffffff;
+}
+
+#about .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about img {
+    height: auto;
+    width: 200px;
+    border: 3px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+#about p:first-of-type {
+    font-weight: 700;
+}
+
+#about p:nth-of-type(2) {
+    width: 300px;
+    font-weight: 400;
+    margin: 16px auto;
+}
+
+#about p:last-of-type {
+    margin: 26px auto 0 auto;
+}
+
+/*** PORTFOLIO ***/
+
+#portfolio {
+    overflow: auto;
+}
+
+.gallery-container {
+    overflow: auto;
+    margin: 0 auto 25px auto;
+}
+
+.portfolio-card {
+    height: auto;
+    width: 30%;
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+    float: left;
+}
+
+.portfolio-image {
+    clear: both;
+    height: auto;
+    width: 300px;
+    border: 1px solid #bbc0c9;
+}
+
+.portfolio-image img {
+    width: 300px;
+    height: 175px;
+}
+
+.project-title {
+    color: #e4afb9;
+}
+
+.project-title h4 {
+    margin-bottom: 0;
+}
+
+.project-features p {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #303846;
+}
+
+.project-features p span {
+    font-weight: 700;
+}
+
+/*** FOOTER ***/
+
+#footer {
+    background-color: #2f4661;
+    overflow: auto;    
+    color: #ffffff;
+}
+
+#footer .container {
+    margin: 50px auto 0 auto;
+}
+
+.footer-info {
+    overflow: auto;
+}
+
+.hire-me,
+.follow-me,
+.meet-me {
+    height: auto;
+    width: 30%;
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hire-me h4,
+.follow-me h4,
+.meet-me h4 {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.hire-me a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer .icon {
+    font-size: 22px;
+    color: #e4afb9;
+    padding: 6px 8px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 5px 5px 0 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#footer .copyright {
+    font-size: 14px;
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
